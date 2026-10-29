@@ -1,0 +1,9 @@
+service vendor.hwcomposer-3 /vendor/bin/hw/android.hardware.composer.hwc3-service.drm_joan
+    override
+    class hal animation
+    interface aidl android.hardware.graphics.composer3.IComposer/default
+    user system
+    group graphics drmrpc
+    seclabel u:r:su:s0
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger

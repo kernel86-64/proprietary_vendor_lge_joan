@@ -1,0 +1,9 @@
+ro.hwui.use_vulkan=
+ro.hardware.egl=adreno
+ro.hardware.gralloc=msm8998
+ro.hardware.hwcomposer=drm
+ro.opengles.version=196610
+ro.hardware.vulkan=msm8998
+debug.gralloc.gfx_ubwc_disable=1
+vendor.gralloc.disable_ubwc=1
+vendor.hwc.drm.device=/dev/dri/joan-display
