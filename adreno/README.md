@@ -34,7 +34,9 @@ libraries, so the paths the default build already loads pick up this stack.
   They still run with `seclabel u:r:su:s0` until there is real sepolicy.
 - `etc_ueventd.rc`: device permissions for `/dev/kgsl-3d0` and `/dev/ion`.
 - `build.prop.additions`: selects the Adreno EGL, Vulkan and gralloc.
-  UBWC is off because the display path only handles linear buffers so far.
+  It disables hardware overlays for this stack because multi-plane scanout
+  can reset the SoC during scrolling. UBWC stays off while the intermittent
+  boot freeze is under investigation.
 
 These binaries are redistributed for interoperability. All rights belong to
 their owners.
