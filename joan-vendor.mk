@@ -2,6 +2,12 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/joan/proprietary/vendor/firmware/ath10k/WCN3990/hw1.0/firmware-5.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ath10k/WCN3990/hw1.0/firmware-5.bin \
+    vendor/lge/joan/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data1.bin \
+    vendor/lge/joan/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev0_S_data2.bin \
+    vendor/lge/joan/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data1.bin \
+    vendor/lge/joan/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev3_S_data2.bin \
+    vendor/lge/joan/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data1.bin \
+    vendor/lge/joan/proprietary/vendor/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bu24235_dl_program_Joan_LGITAct_ICG1020S_rev5_S_data2.bin \
     vendor/lge/joan/proprietary/vendor/firmware/qca/crbtfw21.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/qca/crbtfw21.tlv \
     vendor/lge/joan/proprietary/vendor/firmware/qca/crnv21.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qca/crnv21.bin \
     vendor/lge/joan/proprietary/vendor/firmware/qcom/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/a530_pfp.fw \
