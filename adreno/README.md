@@ -33,10 +33,9 @@ libraries, so the paths the default build already loads pick up this stack.
   allocator and the `drm_joan` composer (`graphics/` in the device tree).
   They still run with `seclabel u:r:su:s0` until there is real sepolicy.
 - `etc_ueventd.rc`: device permissions for `/dev/kgsl-3d0` and `/dev/ion`.
-- `build.prop.additions`: selects the Adreno EGL, Vulkan and gralloc.
-  It disables hardware overlays for this stack because multi-plane scanout
-  can reset the SoC during scrolling. UBWC stays off while the intermittent
-  boot freeze is under investigation.
+- `build.prop.additions`: selects the Adreno EGL, Vulkan and gralloc, and
+  enables multi-plane DPU hardware overlays and UBWC 1.0 scanout (requires the
+  `kgsl_joan` Linux 7.3 `dma_fence->ops` NULL-safety fix).
 
 These binaries are redistributed for interoperability. All rights belong to
 their owners.

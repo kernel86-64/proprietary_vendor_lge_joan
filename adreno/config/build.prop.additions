@@ -4,8 +4,7 @@ ro.hardware.gralloc=msm8998
 ro.hardware.hwcomposer=drm
 ro.opengles.version=196610
 ro.hardware.vulkan=msm8998
-debug.gralloc.gfx_ubwc_disable=1
-vendor.gralloc.disable_ubwc=1
+debug.gralloc.gfx_ubwc_disable=0
+vendor.gralloc.disable_ubwc=0
 vendor.hwc.drm.device=/dev/dri/joan-display
-# The KGSL stack can reset the SoC during multi-plane scanout on joan.
-ro.vendor.hwc.use_overlay_planes=0
+ro.vendor.hwc.use_overlay_planes=1
