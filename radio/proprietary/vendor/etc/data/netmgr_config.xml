@@ -1956,6 +1956,7 @@
       <data name="dataformat_dl_gro_enabled" type="int"> 1 </data>
       <data name="dataformat_ul_gso_enabled" type="int"> 1 </data>
       <data name="phys_net_dev" type="string"> rmnet_ipa0 </data>
+      <data name="rtm_rmnet_data_enabled" type="int"> 1 </data>
       <data name="netdev_max_backlog" type="int"> 10000 </data>
 
       <data name="disable_tcp_hystart_detect" type="int"> 1 </data>
